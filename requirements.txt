@@ -1,0 +1,23 @@
+# Derived from the imports of src/ and example_notebook.ipynb.
+# No versions are pinned: the original runs are not recorded in this repository.
+# The notebook was last executed on CPython 3.10.8 (notebook kernel metadata).
+
+torch
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+tqdm
+pyyaml
+ml_collections
+
+# Needed only by src/eval_metrics (signature-based metrics). signatory must be
+# installed against the exact torch version already present, e.g.
+#   pip install signatory==<signatory>.<torch version> --no-build-isolation
+signatory
+
+# Optional: src/eval_metrics/evaluations.py logs to Weights & Biases.
+wandb

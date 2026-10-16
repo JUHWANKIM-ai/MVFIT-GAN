@@ -1,3 +1,19 @@
+# Training artefacts
 results/
 wandb/
+*.pt
+*.pth
 
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+*Zone.Identifier
